@@ -1,25 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Conditional from './component/ConditionRender';
+import PapaComponent from './component/PapaComponent';
+import Rendering from './component/RenderingList'
+import Stylesheet from './component/Stylesheet';
+import Form from './component/Form'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <>
+    <Form />
+  </>
 }
-
 export default App;
