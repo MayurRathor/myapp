@@ -4,11 +4,11 @@ import Conditional from './component/ConditionRender';
 import PapaComponent from './component/PapaComponent';
 import Rendering from './component/RenderingList'
 import Stylesheet from './component/Stylesheet';
-import Form from './component/Form'
+import Fragment from './component/LifeCycle'
 
 function App() {
   return <>
-    <Form />
+    <Fragment />
   </>
 }
 export default App;
