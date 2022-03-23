@@ -3,7 +3,10 @@ import React, { Component } from 'react'
 class Fragment extends Component {
     render() {
         return (
-            <div>Fragment</div>
+            <React.Fragment>
+                <h1>heading </h1>
+                <div>Fragment</div>
+            </React.Fragment>
         )
     }
 }

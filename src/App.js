@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
-import Conditional from './component/ConditionRender';
-import PapaComponent from './component/PapaComponent';
-import Rendering from './component/RenderingList'
-import Stylesheet from './component/Stylesheet';
-import Fragment from './component/LifeCycle'
+
+import ParentForPureComponent from './component/ParentForPureComponent'
 
 function App() {
   return <>
-    <Fragment />
+    <ParentForPureComponent />
   </>
 }
 export default App;
